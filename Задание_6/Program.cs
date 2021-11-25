@@ -14,7 +14,7 @@ namespace Задание_6
             Console.WriteLine("Введите с клавиатуры предложение, используя пробелы без знаков препинания:");
             string startString = Console.ReadLine();
             string longString = "";
-            //n - номер самого длинного слова в предложении, L - длина этого слова
+            //L - длина самого длинного слова
             int L = 0;
             string[] stringArray = startString.Split();
             foreach (string n in stringArray)
